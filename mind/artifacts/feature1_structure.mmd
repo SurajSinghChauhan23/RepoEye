@@ -1,0 +1,17 @@
+flowchart TD
+cloned_files_TrickIT_frontend_src_components_Dashboard.js_Dashboard["<b>Dashboard</b><br/><small>(—)</small><br/><small>cloned_files\TrickIT\frontend\src\components\Dashboard.js</small><br/><small>[arrow_function]</small>"]
+cloned_files_TrickIT_frontend_src_components_Dashboard.js_handleCreatePost["<b>handleCreatePost</b><br/><small>(—)</small><br/><small>cloned_files\TrickIT\frontend\src\components\Dashboard.js</small><br/><small>[arrow_function]</small>"]
+cloned_files_TrickIT_backend_app_api_routes_registerroutes.py_create_post["<b>create_post</b><br/><small>(content, media, current_user, db)</small><br/><small>cloned_files\TrickIT\backend\app\api\routes\registerroutes.py</small><br/><small>[async_function]</small>"]
+cloned_files_TrickIT_frontend_src_components_Dashboard.js_loadProfile["<b>loadProfile</b><br/><small>(—)</small><br/><small>cloned_files\TrickIT\frontend\src\components\Dashboard.js</small><br/><small>[arrow_function]</small>"]
+cloned_files_TrickIT_frontend_src_components_Dashboard.js_loadPosts["<b>loadPosts</b><br/><small>(—)</small><br/><small>cloned_files\TrickIT\frontend\src\components\Dashboard.js</small><br/><small>[arrow_function]</small>"]
+cloned_files_TrickIT_frontend_src_services_api.js_getImageUrl["<b>getImageUrl</b><br/><small>(—)</small><br/><small>cloned_files\TrickIT\frontend\src\services\api.js</small><br/><small>[arrow_function]</small>"]
+cloned_files_TrickIT_frontend_src_components_Dashboard.js_handleLogout["<b>handleLogout</b><br/><small>(—)</small><br/><small>cloned_files\TrickIT\frontend\src\components\Dashboard.js</small><br/><small>[arrow_function]</small>"]
+cloned_files_TrickIT_backend_app_model_registeruser.py_posts["<b>posts</b><br/><small>(—)</small><br/><small>cloned_files\TrickIT\backend\app\model\registeruser.py</small><br/><small>[class]</small>"]
+cloned_files_TrickIT_frontend_src_components_Profile.js_Profile["<b>Profile</b><br/><small>(—)</small><br/><small>cloned_files\TrickIT\frontend\src\components\Profile.js</small><br/><small>[arrow_function]</small>"]
+cloned_files_TrickIT_frontend_src_components_Dashboard.js_Dashboard --> cloned_files_TrickIT_frontend_src_components_Dashboard.js_loadProfile
+cloned_files_TrickIT_frontend_src_components_Dashboard.js_Dashboard --> cloned_files_TrickIT_frontend_src_components_Dashboard.js_loadPosts
+cloned_files_TrickIT_frontend_src_components_Dashboard.js_Dashboard --> cloned_files_TrickIT_frontend_src_services_api.js_getImageUrl
+cloned_files_TrickIT_frontend_src_components_Dashboard.js_Dashboard --> cloned_files_TrickIT_frontend_src_components_Dashboard.js_handleLogout
+cloned_files_TrickIT_frontend_src_components_Dashboard.js_handleCreatePost --> cloned_files_TrickIT_frontend_src_components_Dashboard.js_loadPosts
+cloned_files_TrickIT_backend_app_api_routes_registerroutes.py_create_post --> cloned_files_TrickIT_backend_app_model_registeruser.py_posts
+cloned_files_TrickIT_frontend_src_components_Profile.js_Profile --> cloned_files_TrickIT_frontend_src_components_Dashboard.js_loadProfile
